@@ -7,7 +7,7 @@ from routers.index import router
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    secret_key: str = "c4a033c4-1b71-43fc-a7a2-ba1962120fbe"
+    secret_key: str = ""
 app = FastAPI()
 
 load_dotenv()
