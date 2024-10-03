@@ -1,0 +1,12 @@
+./__pycache__
+./.idea
+./conifg/__pycache__
+.env
+test_main.http
+*.py[cod]
+*.log
+*.txt
+venv/
+__pycache__/
+*.py[cod]
+.env
